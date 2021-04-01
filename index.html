@@ -1,20 +1,50 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <link rel="stylesheet" href="css/mystyle1.css">
-    </head>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: powderblue;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: pink;
+}
+</style>
+</head>
 <body>
+
+<h2>Navigation Menu</h2>
+<p>In this example, we use CSS to style the list horizontally, to create a navigation menu:</p>
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+
 <h2>External Paths</h2>
 
 <p>This example links to a page located in the same folder as the current page:</p>
 
 <p><a href="html/first.html">first.html로 이동하기</a></p>
-<img src="image/plan gif marketing strategy.gif" alt="뚱이">
 
-<img src="image/강아지.jpg" alt="강아지" usemap="#dog" width="400" height="379">
 
-<map name="dog">
-  <area shape="circle" coords="240,170,70" alt="Cup of coffee" href="http://www.epnc.co.kr/news/articleView.html?idxno=112019">
-</map>
 </body>
 </html>
